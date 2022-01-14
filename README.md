@@ -1,4 +1,4 @@
-# pytorch-lightning-wadb-code-backbone
+# Write your model faster with pytorch-lightning-wadb-code-backbone
 This repository provides the base code for pytorch-lightning and weight and biases simultaneous integration + hydra (to keep configs clean).
 This repository shows a **Toy configuration of CV classificator**
 
