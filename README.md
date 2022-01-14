@@ -1,6 +1,6 @@
 # pytorch-lightning-wadb-code-backbone
 This repository provides the base code for pytorch-lightning and weight and biases simultaneous integration + hydra (to keep configs clean).
-**** Toy configuration of CV classificator
+This repository shows a **Toy configuration of CV classificator**
 
 **pytorch-lightning-wadb-code-backbone organization** 
 
