@@ -1,7 +1,7 @@
 defaults:
   - _self_
-  - dataloader: image_dataset
-  - model: resnet
+  - dataloader: dataset
+  - model: model
   
 trainer:
   cuda_number: '0'

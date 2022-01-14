@@ -3,7 +3,7 @@ from torchvision.io import read_image
 from torch.utils.data import Dataset
 from omegaconf.dictconfig import DictConfig
 from sklearn.model_selection import train_test_split
-from dataset.transformfactory import *
+from datasets.transformfactory import *
 
 class CustomImageDataset(Dataset):
     """Dataset example"""

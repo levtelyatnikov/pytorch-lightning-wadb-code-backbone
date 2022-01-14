@@ -2,7 +2,7 @@ import pytorch_lightning as pl
 from torch.utils.data import DataLoader
 from omegaconf.dictconfig import DictConfig
 
-from dataset.dataset import CustomImageDataset
+from datasets.dataset import CustomImageDataset
 
 class PL_DataModule(pl.LightningDataModule):
     """
