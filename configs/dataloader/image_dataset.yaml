@@ -1,0 +1,15 @@
+dataset_type: CustomImageDataset
+data_dir: data/dir
+
+# Train/val parameters split
+val_size: 0.2
+seed: 42 
+
+# Dataloader parameters 
+train_batch_size: 64
+val_batch_size: 64
+num_workers: 4
+transforms: CustomImageDatasetTransforms(cfg)
+target_transform: None
+
+

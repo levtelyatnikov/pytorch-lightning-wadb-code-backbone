@@ -1,0 +1,23 @@
+defaults:
+  - _self_
+  - dataloader: image_dataset
+  - model: resnet
+  
+trainer:
+  cuda_number: '0'
+  gpus: 1
+  is_logger_enabled: True
+  num_sanity_val_steps: 5
+  check_val_every_n_epoch: 1
+  log_every_n_steps: 1
+
+wadb:
+  logger_project_name: project name
+  logger_name: logger name
+  entity: entity name
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+# Model name (have to be represented in self.model_types in method.py)
+model_type: resnetClassifier
+
+# Model parameters
+num_classes: 2
+shape: [3,200,200]
+
+# Optimizer parameters
+opt: 
+  lr: 0.0002
+  max_epochs: 100
