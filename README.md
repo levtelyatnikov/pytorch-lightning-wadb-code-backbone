@@ -40,6 +40,20 @@ There are few key points of this repository:
 - write your model and pl logic in model file (see the **toy** model.py)
 - configure your pipline through .yaml file and see all metrics in [wadb](https://docs.wandb.ai/)
 
+## Quickstart
+
+Login to your `wandb` account, running once `wandb login`.
+Configure the logging in `conf/logging/*`.
+
+
+---
+
+
+Read more in the [docs](https://docs.wandb.ai/). Particularly useful the [`log` method](https://docs.wandb.ai/library/log), accessible from inside a PyTorch Lightning module with `self.logger.experiment.log`.
+
+> W&B is our logger of choice, but that is a purely subjective decision. Since we are using Lightning, you can replace
+`wandb` with the logger you prefer (you can even build your own).
+ More about Lightning loggers [here](https://pytorch-lightning.readthedocs.io/en/latest/extensions/logging.html).
 ### Configs ###
 To understand the structure see [hydra](https://hydra.cc/docs/tutorials/basic/your_first_app/config_groups/).
 dataset.yaml and model.yaml consist of dataset_type and model_type keys respectively. Through keys values pl pipline is configured.
