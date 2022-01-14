@@ -1,7 +1,9 @@
 # pytorch-lightning-wadb-code-backbone
 This repository provides the base code for pytorch-lightning and weight and biases simultaneous integration + hydra (to keep configs clean).
 **** Toy configuration of CV classificator
+
 **pytorch-lightning-wadb-code-backbone**
+
 │   README.md
 │   method.py
 |   dataloader.py
@@ -28,7 +30,7 @@ The code is divided into a number of subpackages:
 - models
 - datasets
 - configs
-- 
+
 ### How do I use this code ###
 The core of this repository is that the pytorch-lightning (pl) pipline is configured though .yaml file.
 There are few key points of this repository:
