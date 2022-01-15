@@ -65,4 +65,4 @@ Write your model pipline (includes with train step logic, see **toy** example). 
 
 Done. 
 
-Configure all parameters through .yaml file with integrated [wadb](https://docs.wandb.ai/)
+Configure all parameters through .yaml file with integrated [wandb](https://docs.wandb.ai/)
